@@ -41,6 +41,11 @@ reload
 #it will boot fresh with a clear config, then you can move to the next section
 ```
 
+**Note:**: if your switch says that it is part of a stack, then you will need to unstack it before being able to configure and update it. You'll see several prompts when booting that it is a stack member and the command menu will show stack specific commands (ex: stack, simulate-non-stacking-unit). You can unstack your switch by running the following command:
+```
+stack unconfigure clean
+# hit y at the prompt
+```
 
 ## Initial Configuration & update
 
